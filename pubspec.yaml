@@ -1,0 +1,51 @@
+name: yab_yab_ai
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  flutter_launcher_icons:
+  flutter_svg:
+  smooth_page_indicator:
+  get_it:
+  shared_preferences:
+  connectivity:
+  speech_to_text:
+  http:
+  shimmer:
+  translator:
+  flutter_gemini:
+  dash_chat_2: 
+  google_mobile_ads: ^5.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Lora
+      fonts:
+        - asset: assets/fonts/Lora-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/Lora-VariableFont_wght.ttf
+          style: italic
+
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icons.png"
