@@ -70,6 +70,42 @@ class _TranslationScreenState extends State<TranslationScreen> {
                         value: 'ar',
                         child: Text('Arabic'),
                       ),
+                      DropdownMenuItem(
+                        value: 'fr',
+                        child: Text('French'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'es',
+                        child: Text('Spanish'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'hi',
+                        child: Text('Hindi'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'ru',
+                        child: Text('Russian'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'pt',
+                        child: Text('Portuguese'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'zh-cn',
+                        child: Text('Chinese'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'it',
+                        child: Text('Italian'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'de',
+                        child: Text('German'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'ko',
+                        child: Text('Korean'),
+                      ),
                     ],
                     onChanged: (value) {
                       setState(() {
@@ -94,6 +130,42 @@ class _TranslationScreenState extends State<TranslationScreen> {
                         value: 'ar',
                         child: Text('Arabic'),
                       ),
+                      DropdownMenuItem(
+                        value: 'fr',
+                        child: Text('French'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'es',
+                        child: Text('Spanish'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'hi',
+                        child: Text('Hindi'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'ru',
+                        child: Text('Russian'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'pt',
+                        child: Text('Portuguese'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'zh-cn',
+                        child: Text('Chinese'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'it',
+                        child: Text('Italian'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'de',
+                        child: Text('German'),
+                      ),
+                      DropdownMenuItem(
+                        value: 'ko',
+                        child: Text('Korean'),
+                      ),
                     ],
                     onChanged: (value) {
                       setState(() {
@@ -113,12 +185,12 @@ class _TranslationScreenState extends State<TranslationScreen> {
                     textAlign:
                         inputLang == 'ar' ? TextAlign.right : TextAlign.left,
                     decoration: InputDecoration(
-                      focusedBorder:OutlineInputBorder(
+                      focusedBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(15),
                         borderSide: const BorderSide(
                           color: AppColors.primaryColor,
                         ),
-                      ) ,
+                      ),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(15),
                       ),
@@ -158,7 +230,7 @@ class _TranslationScreenState extends State<TranslationScreen> {
                       ),
                       Expanded(
                         child: ElevatedButton(
-                            onPressed: (){
+                            onPressed: () {
                               outPutController.clear();
                               inputController.clear();
                             },
